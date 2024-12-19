@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto";
+  background: #f7f7f7;
+  color: #333;
+}
+
+h1,
+h2 {
+  text-transform: uppercase;
+}
+
+#app {
+  padding: 25px;
+}
+
+input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 15.625rem;
+}
+
+form button {
+  background: #43bc70;
+  font-size: 1rem;
+  padding: 0.5rem 0.75rem;
+  color: #fff;
+  border: 0;
+  border: 3px;
+  cursor: pointer;
+}
+
+#tarefas button {
+  background: transparent;
+  font-size: 0.7rem;
+  border: 0;
+  color: red;
+  cursor: pointer;
+  text-transform: lowercase;
+}
